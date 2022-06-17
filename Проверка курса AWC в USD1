@@ -1,0 +1,324 @@
+id: gW2kCP1lLUigjLKV820M_A
+projectId: o2jhYadl_0yiO9y8fdNe9w
+projectName: My first Project
+created: 2022-06-17T10:21:03.7301651Z
+protocol: 1
+tests:
+- id: Dx1qkjmQmk6sEjIKrzSLMQ
+  name: Проверка курса AWC в USD1
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-06-11T09:03:54.0000000
+  modificationDate: 2022-06-17T10:16:50.0000000
+  settings:
+    automationAssistant: true
+    appId: g2QbWrIJtESy5TVZuSq7PA
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: g2QbWrIJtESy5TVZuSq7PA
+    name: atomicwallet232
+    url: https://atomicwallet.io/ru
+    platform: Web
+  steps:
+  - id: aAbCdn9XeUWz00KfB4FP6w
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: weuupwHakkOBIMqJ01R9Gg
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: 0MPaTLQ7006f5xt9C7wJbw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _wdr2feZQ0Sch4dIRg_ujw
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: a8EmrVT3IUm04vfMYBlNMA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: HHmMtfD8WUGmS2IhwB6e2g
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: DsW_mH2Vtkux5LkbcpHkaw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: bDH_lt0khEiA2HyNo4AU1A
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: iyWi3-6eoEmnxVhYe-vbvA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: t7Qzg4RO1UCQecNSHziNEg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: gGvKbrqObEK90sx7ETA6ng
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 511ddb4e-210f-4f3f-9fb9-b766bb23ee6a
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 5nypjdxREkug3Kqfm8gecA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: gGvKbrqObEK90sx7ETA6ng
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: 100
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 4OhQYHS_mECXqy8geqwgig
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Addon
+    elementId: dk3u1sCMLkStMiGBLufwgA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 26zixP7SXUir3pQmHAVysw
+      source: Store
+      addonId: Xey4bVsJQEODIUN7ssaJMg
+    parameterMaps:
+    - name: IsTextAvailable
+      value: ''
+      direction: Output
+    conditions: []
+    validations:
+    - type: GT
+      invert: false
+      field: IsTextAvailable
+      value: 43
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://atomicwallet.io/ru
+    type: Input
+auxTests: []
+elements:
+- id: 0MPaTLQ7006f5xt9C7wJbw
+  name: RU
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[4]//div[. = ' ru ']
+    priority: 0
+  - name: XPATH
+    value: //header/div/div/div[4]/div/div[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/header/div/div/div[4]/div/div[1]
+    priority: 2
+- id: a8EmrVT3IUm04vfMYBlNMA
+  name: English
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[4]//button[. = 'English']
+    priority: 0
+  - name: XPATH
+    value: //div[4]/div/div[2]/ul/li[1]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/header/div/div/div[4]/div/div[2]/ul/li[1]/button
+    priority: 2
+- id: DsW_mH2Vtkux5LkbcpHkaw
+  name: STAKE & EARN
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[. = ' Stake & Earn ']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div[3]/div[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/header/div/div/div[3]/div[3]/div[1]
+    priority: 2
+- id: iyWi3-6eoEmnxVhYe-vbvA
+  name: AWC
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'AWC']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div[2]/div/ul/li[1]//span
+    priority: 1
+  - name: XPATH
+    value: /html/body/header/div/div/div[3]/div[3]/div[2]/div/ul/li[1]/a/span
+    priority: 2
+- id: gGvKbrqObEK90sx7ETA6ng
+  name: input-number
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#input-number'
+    priority: 0
+  - name: XPATH
+    value: //div[1]/div[1]/div/input
+    priority: 1
+  - name: XPATH
+    value: /html/body/main/section/section[1]/div/div[2]/form/div[1]/div[1]/div[1]/div/input
+    priority: 2
+- id: dk3u1sCMLkStMiGBLufwgA
+  name: input-number2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#input-number2'
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div//input
+    priority: 1
+  - name: XPATH
+    value: /html/body/main/section/section[1]/div/div[2]/form/div[1]/div[2]/div[1]/div[1]/input
+    priority: 2
+projectParameters: []
+addons:
+- id: Xey4bVsJQEODIUN7ssaJMg
+  source: Store
+  version: 1.1.9
+  actions:
+  - id: 26zixP7SXUir3pQmHAVysw
+    name: Contains any text?
+    description: '{{element}} contains any text ?'
+    className: io.testproject.addons.web.element.ContainsAnyText
+  minSdkLevel: 2
+  minSdkVersion: 0.63.1
+  sdkGeneration: 1
+  language: Java
+  hash: 2D35A7CE404CDBD8C628208C7BF6C79678E47DC6F249518E97AC68E19F0A0B6D
